@@ -20,7 +20,7 @@
 *::after {
   box-sizing: border-box;
 }
-/* Конец лобальный  border-box*/
+/* Конец глобальный  border-box*/
 
 /* Базовый сброс */
 .link {
