@@ -186,7 +186,22 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.properties-item::before {
+  display: block;
+  content: ' ';
+  height: 120px;
+  outline: 1px solid red;
+  /* background-image: url(../images/main/clock\ 1.svg); */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: red;
+  margin-bottom: 20px;
+}
 
+.properties-item:nth-child(1)::before {
+  background-image: url(../images/main/clock\ 1.svg);
+}
 .list-properties .properties-item:not(:first-child) {
   margin-left: 20px;
 }
