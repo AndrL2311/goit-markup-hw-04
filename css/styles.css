@@ -220,6 +220,13 @@ body {
   color: var(--title-color);
 }
 
+.item-team {
+  background: var(--color1);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .list-team .item-team:not(:first-child) {
   margin-left: 30px;
 }
@@ -251,10 +258,10 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 
-  background: var(--color1);
+  /* background: var(--color1);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px; */
 }
 .img-workman {
   margin-top: 0px;
@@ -377,8 +384,20 @@ body {
 
 .project-direction-item {
   flex-basis: calc((100% - 90px) / 3);
+
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
   margin-left: 30px;
   margin-top: 30px;
+}
+
+.link-project-direction:focus,
+.link-project-direction:hover {
+  display: block;
+  /* border: 1px solid #eeeeee;
+  box-sizing: border-box; */
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .text-project-direction {
@@ -390,10 +409,10 @@ body {
   color: var(--text-color);
 }
 .box-project {
-  width: 370px;
+  width: 100%;
   background: var(--color1);
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
+  /* border: 1px solid #eeeeee;
+  box-sizing: border-box; */
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 20px;
