@@ -204,12 +204,26 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.properties-item::before {
+.properties-box-ikon {
+  display: flex;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+}
+.properties-icon-antenna {
+  display: block;
+  width: 70px;
+  height: 70px;
+  fill: #212121;
+}
+/* .properties-item::before {
   display: block;
   content: ' ';
   height: 120px;
   outline: 1px solid red;
-  /* background-image: url(../images/main/clock\ 1.svg); */
+ 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -219,7 +233,7 @@ body {
 
 .properties-item:nth-child(1)::before {
   background-image: url(../images/main/clock\ 1.svg);
-}
+} */
 .list-properties .properties-item:not(:first-child) {
   margin-left: 20px;
 }
