@@ -284,7 +284,6 @@ body {
 }
 
 .section-team {
-  height: 648px;
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--background-color);
@@ -325,7 +324,41 @@ body {
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
+.list-social {
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  list-style-type: none;
+  padding-top: 16px;
+  padding-bottom: 0;
+}
+.svg-social {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+.item-social:not(:first-child) {
+  margin-left: 10px;
+}
 
+.link-social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: var(--color1);
+  border-radius: 50%;
+}
+
+.link-social:hover,
+.link-social:focus,
+.link-social:hover .svg-social,
+.link-social:focus .svg-social {
+  background-color: var(--accent-color);
+  fill: var(--color1);
+}
 /* Кнопка */
 .button {
   cursor: pointer;
