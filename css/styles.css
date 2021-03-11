@@ -88,6 +88,18 @@ body {
 }
 
 /* Телефон и mail */
+.header-icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+  fill: var(--text-color);
+}
+.header-icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: var(--text-color);
+}
 .kontakt-link {
   font-weight: 500;
   font-size: 14px;
@@ -101,6 +113,12 @@ body {
 .kontakt-link:hover,
 .kontakt-link:focus {
   color: var(--accent-color);
+}
+.kontakt-link:hover .header-icon-smartphone,
+.kontakt-link:focus .header-icon-smartphone,
+.kontakt-link:hover .header-icon-envelope,
+.kontakt-link:focus .header-icon-envelope {
+  fill: var(--accent-color);
 }
 
 .navigation-list {
